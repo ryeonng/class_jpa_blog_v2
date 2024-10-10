@@ -1,6 +1,6 @@
-package com.tenco.blog_v1;
+package com.tenco.blog_v2;
 
-import com.tenco.blog_v1.board.Board;
+import com.tenco.blog_v2.board.Board;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
 import lombok.RequiredArgsConstructor;
@@ -39,9 +39,9 @@ public class BoardNativeRepository  {
     }
 
     /**
-                * 모든 게시글 조회
-                *
-                * @return
+     * 모든 게시글 조회
+     *
+     * @return
      */
 
         public List findAll() {
