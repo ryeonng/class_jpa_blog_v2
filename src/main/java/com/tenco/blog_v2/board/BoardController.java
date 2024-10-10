@@ -85,7 +85,7 @@ public class BoardController {
         if ( ! board.getUser().getId().equals(sessionUser.getId())) {
             return "redirect:/error-403"; // 추후 수정
         }
-
+// !!
             // 작성자가 맞으면 삭제 수행
             boardRepository.deleteById(id);
         return "redirect:/";
