@@ -103,7 +103,7 @@ public String detail(@PathVariable(name = "id") Integer id, HttpServletRequest r
         request.setAttribute("board", board);
         return "board/detail";
     }
-
+//.
 
     @GetMapping("/")
     public String index(Model model) {
